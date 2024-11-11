@@ -1,0 +1,30 @@
+name = "hono-api"
+main = "src/index.ts"
+compatibility_date = "2024-11-11"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+SUPABASE_URL= "https://jwhsjhmilicpryfjeynd.supabase.co"
+SUPABASE_KEY= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3aHNqaG1pbGljcHJ5ZmpleW5kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzEzNTc5MjMsImV4cCI6MjA0NjkzMzkyM30.vxrpxfIhWaCYT2G5aZH7s9qCYmVcDwGDlbjypxUho-o"
+JWT_SECRET= "EYGAIsYs+01alaGwUm8VH70qqiakpCE7DRtRFVG2YHOXbUpPm5UZxsQQlGmu3xingzLuHkYDehmUbEuPI0ne3A=="
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
